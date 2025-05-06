@@ -1,0 +1,70 @@
+#formdiv{
+    position: relative;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    position: relative;
+    margin:auto;
+    width: 20%;
+}
+
+
+fieldset{
+    padding: 3%;
+    border: 1px solid rgb(62, 3, 81);
+}
+
+legend{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+label{
+    display: block;
+    margin-left: 10%;
+}
+
+input{
+    display: block;
+    margin-top: 1%;
+    margin: auto;
+    width: 60%;
+    padding: 1%;
+}
+
+button{
+    display: block;
+    padding: 4%;
+    margin: auto;
+    margin-top: 5%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    text-shadow: 1px 1px 5px rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid rgb(73, 0, 87);
+}
+
+#erroneo{
+    position: absolute;
+    top: 150px;
+    right: 350px;
+    width: 15%;
+    padding: 10px;
+    text-align: center;
+    font-weight: bolder;
+    background-color: rgb(243, 185, 185);
+}

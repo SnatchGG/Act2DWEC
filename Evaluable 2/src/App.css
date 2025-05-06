@@ -1,0 +1,23 @@
+@import 'CSS/Menu.css'; 
+@import 'CSS/Formulario.css';
+@import 'CSS/ListadoVehiculos.css';
+@import 'CSS/Consulta.css';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#lis{
+    margin-top: 600px;
+    background-color: black;
+    width: 50%;
+    display: block;
+    clear: both;
+}
